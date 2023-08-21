@@ -1,7 +1,7 @@
 import os
 from llama_index import TreeIndex, SimpleDirectoryReader
 import openai
-openai.api_key = "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"
+openai.api_key = "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"
 pdf_directory = r"c:\Users\anish\TempPDF"
 resume = SimpleDirectoryReader(pdf_directory).load_data()
 new_index = TreeIndex.from_documents(resume)
